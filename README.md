@@ -2,6 +2,6 @@
 Rebuilding a website
 16 November
 
--Created repo
--Made website live 
--Created Folder structure
+-Created repo<br>
+-Made website live<br> 
+-Created Folder structure<br>
