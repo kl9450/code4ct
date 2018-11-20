@@ -4,7 +4,15 @@
   width: 100%;
   height: 425px; }
 
-.list {
+.name {
+  height: 600px;
+  font-family: Poppins;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+  padding-right: 700px; }
+
+.search {
   float: right; }
 
 .menu ul {
