@@ -6,7 +6,13 @@
         'partials/components',
         'partials/responsiveness';
 
+.container{
+    width: 100%;
+}
 
+.top{
+    text-align: center
+}
 .banner-image {
     background-image: url(../images/Code4CT-homepage.jpg);
     color: $font-color;
