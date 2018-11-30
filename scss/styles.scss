@@ -1,17 +1,16 @@
 // global import of partials 
 
-@import 'partials/variables',
-        'partials/base',
-        'partials/layout',
-        'partials/components',
-        'partials/responsiveness';
+@import 'partials/_variables.scss',
+        'partials/_base.scss',
+        'partials/_layout.scss',
+        'partials/_components.scss',
+        'partials/_responsiveness.scss';
 
-.container{
-    width: 100%;
+.container{    width: 100%;
 }
 
 .top{
-    text-align: center
+    display: inline-block;
 }
 .banner-image {
     background-image: url(../images/Code4CT-homepage.jpg);
@@ -32,6 +31,7 @@
 }
 .menu{
     ul {
+        width: 20%;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -49,5 +49,7 @@
         padding: 14px 16px;
         text-decoration: none;
     }
-
+    .list {
+        width: 20%;
+    }
 }
