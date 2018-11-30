@@ -1,10 +1,11 @@
 // global import of partials 
 
-@import 'partials/_variables.scss',
-        'partials/_base.scss',
-        'partials/_layout.scss',
-        'partials/_components.scss',
-        'partials/_responsiveness.scss';
+@import 'partials/variables',
+        'partials/mixins',
+        'partials/base',
+        'partials/layout',
+        'partials/components',
+        'partials/responsiveness';
 
 .container{    width: 100%;
 }
@@ -29,27 +30,7 @@
 .search {
     float: right;
 }
-.menu{
-    ul {
-        width: 20%;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
+ .menu{
+    text-align: center;
     
-    li {
-        float: left;
-    }
-    
-    li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    .list {
-        width: 20%;
-    }
-}
+ }
