@@ -2,45 +2,317 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CODE4CT | Young women Leveraging tech for social innovation</title>
+    <title>CODE4CT | Young women leveraging tech for social inovation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <span id="blank_nav"></span>
+        <nav id="menu">
 
-<section class="container">
-    <header class="top">
-        
-         <div class="logo"> 
-            <img src="images/16-_0017_Code4CT.jpg" height="120" width="120">      
-            <nav class="menu">
-                         
-                <a href="" class="focus">Home</a>
-                <a href="">Courses</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
-                <a href="">Portfolio</a>   
+            <div id="logo">
+                <img src="images/logo.PNG">
+            </div>
 
-                <div class="search">
-                    <input type="text" placeholder="Search.." class="search">
-                    <button><i class="fas fa-search"></i></button>
-                </div>     
-            </nav> 
-         </div>    
-    </header>   
-    
-    <header class="banner-image">
-        <h1 class="name">Young Women Leveraging Tech for Social Innovation</h1>
-            <p class="intro">We want to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry. We want high school girls to have an enabling environment to imagine and create new technology that is relevant to a South African context.</p>
-            <button type="button">START CODING</button> <button type="button">DONATE NOW</button>
+            <div id="home_nav_prop">
+                <ul>
+                    <li><a href="#" class="highlight">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">Contact</a></li>            
+                    <li><a href="#">Portfolios</a></li>
+                </ul>
+            </div>  
+
+            <div>
+                <form class="search_position">
+                    <input type="text" id="searchBar" placeholder="  Search..."><button type="submit" id="searchButton"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+
+        </nav>
+
+        <div>
+            <!-- Background image imported in CSS file. -->
+            <div id="bg_image">
+                <div id="position">
+                    <!-- Positions description -->
+                    <h1>Young Women Leveraging Tech for Social Inovation</h1>
+                    <p class="description_p">We want to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry. We want high school girls to have an enabling environment to imagine and create new technology that is relevant to a South African context.</p>
+                    <button id="start_btn" type="submit" class="button" href="#">START CODING  <i class="fas fa-angle-right"></i></button><button id="donate_btn" type="submit" class="button" href="#">DONATE NOW  <i class="fas fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>
+
     </header>
+    <article>
+        <div id="section-grid">
+            <div class="grid_item grid_item1">
+                <section>
+                    <h3>Who We Are</h3>
+                    <p>Code for Cape Town (Code4CT) is a programme that introduces young girls to basic web building skills and exposes them to opportunities in the Information and Communication Technologies (ICT) sector. </p>
+                    <p>Participants are trained in web development, design principles, as well as courses in professional development. Code4CT aims to inspire a generation of young girls who are well-prepared with a toolkit of technical and soft skills in order to achieve high impact in the workplace</p>
 
-    <section>
-        <h1 class="team">Who we are</h1>
-            <p >Code for Cape Town (Code4CT) is a programme that introduces young girls to basic web building skills and exposes them to opportunities in the Information and Communication Technologies (ICT) sector. Participants are trained in web development, design principles, as well as courses in professional development. Code4CT aims to inspire a generation of young girls who are well-prepared with a toolkit of technical and soft skills in order to achieve high impact in the workplace. These are skills that everyone should have. Even if you have no intention of becoming a professional coder, you will benefit from knowing how to think in this way in this increasingly computerized economy. A growing number of permanent job positions that use information technology to deliver a product or a service are becoming available in the local economy.  It is estimated that nearly 75000 such jobs will come online in South Africa within the next five years.  These digital jobs will mostly be driven by the ICT, Business Process Outsourcing (BPO), and the financial services industries.  These are the fastest growing sectors in our economy.  They are also the sectors that have the highest demand for entry-level digital skills.</p>
-    </section>    
-    </section>
+                    <button class="btn-readmore">Read More</button>
+                </section>
+            </div>
+            <!-- Nested grid , Images -->
+            <div class="grid_item grid_item2">
+                <div id="nested_grid">
+                    <div class="nested_grid_item nested_grid_item1"><img src="images/Home_grid_img1.jpg"></div>
+                    <div class="nested_grid_item nested_grid_item2"><img src="images/Home_grid_img2.jpg"></div>
+                    <div class="nested_grid_item nested_grid_item3"><img src="images/Home_grid_img3.jpg"></div>
+                    <div class="nested_grid_item nested_grid_item4"><img src="images/Home_grid_img4.jpg"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Learn to section | Start -->
+        <div id="learn_to">
+            <div id="learn_to_align">
+                <div class="flex_item">
+                        <p><i class="fas fa-desktop learn_to_fas"></i></p>
+                        <h3>Coding</h3>
+                        <p>Learn how to build your own websites using HTML, CSS, JavaScript & JQuery. Go on to explore exciting modules from game development to user experience design.</p>
+                </div>
+                <div class="flex_item">
+                        <p><i class="fas fa-volume-up learn_to_fas"></i></p>
+                        <h3>Communication</h3>
+                        <p>Learn how to pitch ideas, represent yourself online, communicate professionally and work with online collaboration tools.</p>
+                </div>
+                <div class="flex_item">
+                        <p><i class="fas fa-print learn_to_fas"></i></p>
+                        <h3>Problem Solving</h3>
+                        <p>Apply your coding skills to issues you are interested in. You will learn how to tackle complex problems using the design thinking process.</p>
+                </div>
+                <div class="flex_item">
+                        <p><i class="fas fa-camera-retro learn_to_fas"></i></p>
+                        <h3>Career Guidance</h3>
+                        <p>Explore future options by meeting different companies doing exciting things with technology. We offer career testing and connect you to our network of study institutions and bursary programs.</p>
+                </div>
+
+            </div> 
+        </div>
+        <!-- Learn to section | End -->
+        <!-- Start of Courses preview section and the meet out team -->
+        <!-- About Info-->
+        <div id="info">
+            <div id="course_pics">
+                <h3>Our Exciting Courses</h3>
+                <p>These's are the our courses and work environment: </p>
+                <div id="course_grid">
+                    <div class="course_grid_item course_grid_item1">
+                        <div id="course_nested">
+                            <!-- Nested Grid | Start -->
+                            <div class="course_nested_item course_nested_item1">
+                                <img src="images/Course4.jpg">
+                            </div>
+                            <div class="course_nested_item course_nested_item2">
+                                <img src="images/course2.jpg">
+                            </div>
+                            <div class="course_nested_item course_nested_item3">
+                                <img src="images/course1.jpg">
+                            </div>
+                            <div class="course_nested_item course_nested_item4">
+                                <img src="images/course3.jpg">
+                            </div>
+                            <!-- Nested Grid | End -->
+                        </div>
+                    </div>
+                    <div class="course_grid_item course_grid_item2">
+                        <img src="images/course5.JPG">
+                    </div>
+                </div>
+            </div>
+            <div id="team">
+                <h3>Meet Our Team</h3>
+                <p>Code for Cape Town’s teaching team is made up of trained facilitators who are either working in the industry as developers or studying Computer Science or Information Systems at tertiary institutions such as UCT, UWC and CPUT. Our facilitators are passionate about teaching and seeing Code for Cape Town participants grow in their professional and personal development. Facilitators create a light-hearted atmosphere, with fun icebreakers and energisers, and zany examples during lessons.</p>
+                <div id="team_grid">
+                    <div class="team_grid_item team_grid_item1">
+                        <div id="team_nest1">
+                            <div class="team_nest1_item team_nest1_item1">
+                                <img src="images/team_img1.jpg">
+                            </div>
+                            <div class="team_nest1_item team_nest1_item2">
+                                <h4>Emma Dicks</h4>
+                                <p>Founder and Director</p>
+                                <hr>
+                                <p>Emma is passionate about providing high quality education that enables young people to bring innovative ideas to life and play an active role in South Africa’s economy.</p>
+                                <div id="social-media">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-pinterest-p"></i>
+                                    <i class="fab fa-google-plus-g"></i>
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-skype"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="team_grid_item team_grid_item2">
+                        <div id="team_nest2">
+                                <div class="team_nest2_item team_nest2_item1">
+                                    <img src="images/team_img2.jpg">
+                                </div>
+                                <div class="team_nest2_item team_nest2_item2">
+                                    <h4>Tegan Crous</h4>
+                                    <p>Program Lead</p>
+                                    <hr>
+                                    <p>Tegan heads up the high school program.
+                                    She is spurred on by a heart for people and seeing them pursue their potential in a safe, fun and nurturing environment</p>
+                                    
+                                    <div id="social-media">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-pinterest-p"></i>
+                                        <i class="fab fa-google-plus-g"></i>
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <i class="fab fa-skype"></i>
+                                    </div>
+                                </div>
+        
+                        </div>
+                    </div>
+                    <div class="team_grid_item team_grid_item3">
+                        <div id="team_nest3">
+                                <div class="team_nest3_item team_nest3_item1">
+                                    <img src="images/team_img3.jpg">
+                                </div>
+                                <div class="team_nest3_item team_nest3_item2">
+                                    <h4>Tracy-Anne Sikenjana</h4>
+                                    <p>Leadership Programme Coordinator</p>
+                                    <hr>
+                                    <p>Tracy joined the Code4CT program in 2015 and then matriculated from Rustenburg Girls’ High in 2016. She decided to intern with Code4CT to give back to an organisation that had a large impact on her personal growth and development.</p>
+                                    <div id="social-media">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-pinterest-p"></i>
+                                        <i class="fab fa-google-plus-g"></i>
+                                        <i class="fab fa-linkedin-in"></i>
+                                        <i class="fab fa-skype"></i>
+                                    </div>    
+                                </div>
+        
+                        </div>
+                    </div>
+                    <div class="team_grid_item team_grid_item4">
+                        <div id="team_nest4">
+                                <div class="team_nest4_item team_nest4_item1">
+                                    <!-- <img src="images/team_img4.jpg"> -->
+                                </div>
+                                <div class="team_nest4_item team_nest4_item2">
+                                        <h4>Buhle Mlingwana</h4>
+                                        <p>Programme Operator</p>
+                                        <hr>
+                                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam temporibus cumque voluptatibus, delectus corrupti magni itaque vel, alias nisi corporis incidunt sit eos! </p>
+                                        <div id="social-media">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <i class="fab fa-twitter"></i>
+                                            <i class="fab fa-pinterest-p"></i>
+                                            <i class="fab fa-google-plus-g"></i>
+                                            <i class="fab fa-linkedin-in"></i>
+                                            <i class="fab fa-skype"></i>
+                                        </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="count_up">
+        <!-- section with count up functionality | Start -->
+            <div id="count_up_grid">
+                <div class = "stats_counter">
+                    <div class="stat1">
+                        <h1 id="cupsOfCoffee">3000+</h1>
+                        <p>Cups of coffee</p>
+                    </div>
+                </div>
+                <div class = "stats_counter">
+                    <h1 id="numberOfGirls">780+</h1>
+                    <p>Number of girls</p>
+                </div>
+                <div class = "stats_counter">
+                    <h1 id="projectsCompleted">3120+</h1>
+                    <p>Projects completed</p>
+                </div>
+                <div class = "stats_counter">
+                    <h1 id="hoursOfCode">8765+</h1>
+                    <p>Hours of Code</p>
+                </div>
+            </div>
+        </div>
+        <div id="subcribe_sec">
+            <h3><i class="fas fa-paper-plane"></i>SUBSCRIBE TO US</h3>
+            <p>Subscribe by entering your email: </p>
+            <form>
+                <input type="email" placeholder=" enter your email" id="subscribe_input"><button type="submit" id="subscribe_button">Subscribe</button>
+            </form>
+        </div>
+        <div id="sponsorships">
+        </div> 
+        <div id="details_sec">
+            <div id="details_flexbox">
+                <div>
+                    <br>
+                    <br>
+                    <p>Code for Cape Town is a project of Innovate South Africa, which is a registered non-profit (137806NPO) and a Public Beneficiary Organisation (930050338)</p>
+                    <p><button class="detail_but"><i class="fas fa-phone"></i></button> <span class="p_space">021 685 0991<span></span></p>
+                    <p><button class="detail_but"><i class="fas fa-envelope highlight"></i></button><span class="p_space">info@code4ct.com</span></p>
+                    <p><button class="detail_but"><i class="fas fa-map-marker-alt"></i></button><span class="p_space">Physical address: Innovate South Africa, 403 Old Castle Brewery, 6 Beach Rd, Woodstock, Cape Town, 7915</span></p>
+                </div>
+                <div id="extra_padding"></div>
+                <div>
+                    <h3>Company</h3>
+                    <ul class="details_ul">
+                        <li class="highlight">About us</li>
+                        <li>Contact us</li>
+                        <li>Blog</li><br>
+                        <li>Testimonials</li>
+                        <li>Affilate program</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Help & Support</h3>
+                    <ul class="details_ul">
+                        <li>Help centre</li>
+                        <li>Free simple template</li>
+                        <li>Refund policy</li>
+                        <li>Report spam</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Courses</h3>
+                    <ul class="details_ul">
+                        <li>Intro to Web Pages</li>
+                        <li>Beginner JavaScript</li>
+                        <li>Codestorm</li>
+                        <li>Fullstack JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+          
+        </div>  
+        <footer>
+                <div id="footer_flex">
+                    <p class="end">Copyright &copy; 2017 PRIVACY POLICY</p>
+                    <p class="end">Follow us: 
+                        <i class="fab fa-facebook-f p_space white_C"></i>
+                        <i class="fab fa-twitter white_C"></i>
+                        <i class="fab fa-pinterest-p white_C"></i>
+                        <i class="fab fa-google-plus-g white_C"></i>
+                        <i class="fab fa-linkedin-in white_C"></i>
+                        <i class="fab fa-skype white_C"></i>
+                    </p>
+                </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </article>
 </body>
 </html>
