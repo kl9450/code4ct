@@ -79,5 +79,5 @@ Method, Prototype and Constructive
 ## Change log
 
 ---
-
-## &copy; All Rights Reversed 2018,
+- Visit the following link to view site: https://kl9450.github.io/code4ct/index.html
+## &copy; All Rights Reserved 2018, by Plamedi Kodi Luyeye
