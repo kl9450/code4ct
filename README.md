@@ -14,7 +14,7 @@
 ---
 
 ## Brief
-Company: codect (a Non-Profit Orginasation.) Their main goal is to Empower women in the qorld o technology. (Too few women are currently interested as they see it as a male dominated industry).
+Company: Code4CT (a Non-Profit Orginasation) Their main goal is to Empower women in the qorld o technology. (Too few women are currently interested as they see it as a male dominated industry).
 Allowing more and more women to get to know the ins and outs o the Tech industry, to be part of the greater diversity of the Tech industry.
 
 Process: Going to high schools to speak to the girls trying to attract them into the tech industry.
