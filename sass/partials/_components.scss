@@ -1,0 +1,73 @@
+// @import'variables';
+/* ============ NavBar Components | Start ============= */
+button{
+    background-color: $theme_white;
+    border: 1px solid $theme_grey;
+    height: 22px; 
+    cursor: pointer;
+}
+/* ============ NavBar Components | End ============= */
+
+/* ============= Image background Components | Start ============= */
+/* ======= Buttons Expands on hover | Start ======= */
+.button {
+    height: 50px;
+    width: 140px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid $theme_grey;
+    z-index: -1;
+    cursor: pointer;
+
+    .fa-angle-right {
+    display: none;
+    }
+}
+
+.button:hover{
+    // Increases 5%
+    width: 147px;
+    .fa-angle-right {
+        display: inline-block;
+        }
+}
+
+/* ======= Buttons Expands on hover | End ======= */
+
+#start_btn {
+    background-color: $theme_pink;
+    border: 2px solid $theme_pink;
+    color: $theme_white;
+    border-radius: 2px;
+}
+#donate_btn {
+    background-color: transparent;
+    color: $theme_white;
+    border: 2px solid $theme_white;
+    border-radius: 2px;
+}
+#position {
+    // border: red 2px solid;
+    text-align: center;
+    width: 60%;
+    height: 40%;
+    margin: 15% 20%;
+    position: absolute;
+    color: white;
+    padding: 10px;
+}
+/* ============= Image background Components | End ============= */
+
+
+/* =========== READ MORE BUTTON | Start =========== */
+
+.btn-readmore {
+    width: 120px;
+    height: 40px;
+    color: $theme_grey;
+    padding: 10px;
+    border: $theme_grey 1px solid;
+    margin-top: 35px;
+    cursor:pointer;
+}
+/* =========== READ MORE BUTTON | End =========== */
