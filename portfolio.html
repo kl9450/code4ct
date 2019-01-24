@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>CODE4CT | Young women leveraging tech for social inovation</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-</head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>CODE4CT | Young women leveraging tech for social inovation</title>
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    </head>
 
 <body>
     <header>
-        <span id="blank_nav"></span>   
-        <nav id="menu">
-
-                    <div id="logo">
-                        <img src="images/logo.PNG">
-                    </div>
-        
-                    <div id="home_nav_prop">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">about</a></li>
-                            <li><a href="#">Contact</a></li>            
-                            <li class="highlight">Portfolios</li>
-                        </ul>
-                    </div>  
-        
-                    <div>
-                        <form class="search_position">
-                            <input type="text" id="searchBar" placeholder="  Search..."><button type="submit" id="searchButton"><i class="fas fa-search"></i></button>
-                        </form>
-                    </div>
-        
-            </nav>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <section class="navbar-brand">
+                <a class="navbar-item" href="http://code4ct.com/" target=_blank>
+                    <img src="images/ct_logo.PNG" width="112" height="28">
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </section> 
+            <section id="navbarBasicExample" class="navbar-menu">
+                <article class="navbar-start">
+                    <a class="navbar-item">
+                        Home
+                    </a>
+                    <a class="navbar-item">
+                        COURSES
+                    </a>
+                    <a class="navbar-item">
+                        ABOUT
+                    </a>
+                    <a class="navbar-item">
+                        CONTACT
+                    </a>
+                    <a class="navbar-item">
+                        PORTFOLIO
+                    </a>    
+                </article> 
+                <article>
+                    <form class="search_position">
+                        <input type="text" id="searchBar" placeholder="  Search..."><button type="submit" id="searchButton"><i class="fas fa-search"></i></button>
+                    </form>
+                </article>   
+            </section>   
+        </nav>
     </header> 
     <section class="port">
         <h2>OUR PORTFOLIOS</h2>   
